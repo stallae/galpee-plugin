@@ -2,7 +2,7 @@
   "mcpServers": {
     "galpee": {
       "type": "http",
-      "url": "https://galpee.stallae.com/api/mcp"
+      "url": "https://galpee.com.br/api/mcp"
     }
   }
 }

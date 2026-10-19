@@ -31,7 +31,7 @@ Funcionalidades corta o acesso de todo mundo.
    página de login do GALPEE abre; entre como Administrador.
 
 Alternativa sem plugin: **Personalizar → Conectores → Adicionar conector
-personalizado**, URL `https://galpee.stallae.com/api/mcp`, autenticação
+personalizado**, URL `https://galpee.com.br/api/mcp`, autenticação
 **Entrar agora** (*Sign in now*).
 
 ### Claude Code (terminal e aba Code do Desktop)
@@ -47,12 +47,12 @@ Para reautenticar: `/mcp` → *galpee* → *Authenticate*.
 Sem plugin, direto ao servidor:
 
 ```bash
-claude mcp add --transport http galpee https://galpee.stallae.com/api/mcp
+claude mcp add --transport http galpee https://galpee.com.br/api/mcp
 ```
 
 ### Outro ambiente (QA, local)
 
-O plugin aponta para `https://galpee.stallae.com`. Para outro ambiente, use o
+O plugin aponta para a produção, `https://galpee.com.br` (`galpee.stallae.com` redireciona para lá). Para outro ambiente, use o
 conector personalizado ou `claude mcp add` com a URL desejada (por exemplo
 `https://qa.galpee.com.br/api/mcp` ou `http://localhost:3000/api/mcp`).
 
@@ -63,7 +63,7 @@ em **Segurança → Acesso via Claude (MCP)** e enviá-lo como
 `Authorization: Bearer glp_mcp_…` — por exemplo, no Claude Code:
 
 ```bash
-claude mcp add --transport http galpee https://galpee.stallae.com/api/mcp \
+claude mcp add --transport http galpee https://galpee.com.br/api/mcp \
   --header "Authorization: Bearer glp_mcp_…"
 ```
 
