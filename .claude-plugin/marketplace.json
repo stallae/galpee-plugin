@@ -1,0 +1,17 @@
+{
+  "name": "galpee",
+  "description": "Plugins do Claude para a plataforma GALPEE (Stallae). Acesso somente leitura ao backoffice, exclusivo para Administradores.",
+  "owner": {
+    "name": "Stallae",
+    "url": "https://galpee.com.br"
+  },
+  "plugins": [
+    {
+      "name": "galpee-admin",
+      "source": "./plugins/galpee-admin",
+      "description": "Backoffice GALPEE por MCP (somente leitura). Ao conectar, abre a página de login do GALPEE — só Administradores.",
+      "category": "operations",
+      "tags": ["galpee", "admin", "mcp"]
+    }
+  ]
+}

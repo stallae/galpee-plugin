@@ -1,0 +1,14 @@
+{
+  "name": "galpee-admin",
+  "displayName": "GALPEE Admin",
+  "version": "1.1.0",
+  "description": "Conecta o Claude ao backoffice GALPEE (somente leitura): galpões, ofertas, solicitações, usuários, leads, auditoria e funcionalidades. Ao conectar, abre a página de login do GALPEE — só contas de Administrador são aceitas.",
+  "author": {
+    "name": "Stallae",
+    "url": "https://galpee.com.br"
+  },
+  "homepage": "https://github.com/stallae/galpee-plugin",
+  "repository": "https://github.com/stallae/galpee-plugin",
+  "license": "UNLICENSED",
+  "keywords": ["galpee", "backoffice", "admin", "mcp"]
+}
