@@ -75,6 +75,7 @@ mesma tela.
 Pergunte em português:
 
 - "Como está a plataforma hoje?" → `resumo_plataforma`
+- "Quantas visitas o site teve essa semana? De onde vêm? Quantos no celular?" → `metricas_site` (`dias: 7`)
 - "O que aconteceu com o protocolo GLP-20261019-0007?" → `detalhar_solicitacao`
 - "Quais galpões de SP estão esperando revisão?" → `listar_galpoes`
 - "Quem aprovou galpões esta semana?" → `consultar_auditoria` com `WAREHOUSE_APPROVED`

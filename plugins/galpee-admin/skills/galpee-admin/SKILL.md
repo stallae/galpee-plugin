@@ -30,6 +30,7 @@ auditoria da plataforma com o token usado. Responda sempre em **pt-BR**.
 | `listar_leads` | Pré-cadastros da landing |
 | `consultar_auditoria` | Trilha de ações; aceita prefixo com `*` (ex.: `REQUEST_*`) |
 | `listar_funcionalidades` | Flags ligadas/desligadas |
+| `metricas_site` | Audiência do site e da área logada (visitas, visitantes únicos, funil do cadastro, páginas, origem/UTM, países/cidades, celular × desktop, iOS/Android, navegador). `dias` padrão 30. Só agregados anonimizados |
 
 Listas são paginadas (`pagina`, `tamanho` ≤ 100). Prefira filtros a varrer páginas.
 
