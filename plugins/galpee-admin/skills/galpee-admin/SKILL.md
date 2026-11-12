@@ -11,7 +11,7 @@ auditoria da plataforma com o token usado. Responda sempre em **pt-BR**.
 
 ## Vocabulário (não traduza, não invente)
 
-- **Personas**: Operador (dono do galpão), Cliente (empresa que precisa de armazenagem), Administrador GALPEE, Porteiro.
+- **Personas**: Operador (dono do galpão), Cliente (empresa que precisa de armazenagem), Administrador GALPEE, Porteiro, Representante de Vendas (`REPRESENTANTE` — traz Operadores e Clientes por links de cadastro).
 - **Galpão** (`warehouse_status`): `RASCUNHO → PENDENTE_REVISAO → EM_REVISAO → APROVADO | DEVOLVIDO_AJUSTE | REPROVADO`. Um galpão aprovado pode ter **edição pendente** (`edicaoPendente`) aguardando nova revisão.
 - **Oferta** (`offer_status`): `ATIVA | PAUSADA | ENCERRADA`.
 - **Solicitação de reserva** (`request_status`): `ENVIADA → EM_ANALISE → CONFIRMADA | RECUSADA | EXPIRADA | CANCELADA`. Protocolo `GLP-AAAAMMDD-NNNN`. O Operador tem **48h** para responder (`responderAte`).

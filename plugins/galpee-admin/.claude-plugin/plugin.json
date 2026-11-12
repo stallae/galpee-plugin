@@ -1,7 +1,7 @@
 {
   "name": "galpee-admin",
   "displayName": "GALPEE Admin",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Conecta o Claude ao backoffice GALPEE (somente leitura): galpões, ofertas, solicitações, usuários, leads, auditoria e funcionalidades. Ao conectar, abre a página de login do GALPEE — só contas de Administrador são aceitas.",
   "author": {
     "name": "Stallae",
